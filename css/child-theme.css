@@ -11833,14 +11833,18 @@ figure.woocommerce-product-gallery__wrapper {
       list-style-type: none; }
       #footer-before .footer-area ul a {
         color: #fff; }
+    #footer-before .footer-area img {
+      margin-top: 15px;
+      max-height: 150px;
+      width: auto; }
 
 #footer-after {
   background-color: #C0C0C0;
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  padding-top: 15px;
-  padding-bottom: 15px; }
+  padding-top: 5px;
+  padding-bottom: 5px; }
   #footer-after p {
     color: #fff;
     -webkit-box-align: center;
