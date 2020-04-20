@@ -41,11 +41,20 @@ function add_google_fonts() {
 
 add_action( 'wp_enqueue_scripts', 'add_google_fonts' );
 
+// Icons
+
+function add_font_awesome(){
+	wp_enqueue_script( 'font_awesome_icons', 'https://kit.fontawesome.com/013f1506c9.js', array(), NULL, true);
+};
+
+add_action( 'wp_enqueue_scripts', 'add_font_awesome');
 
 // Required Files
 
 require_once( get_stylesheet_directory() . '/inc/side-menu/walker.php' );
-// require_once( get_stylesheet_directory() . '/inc/widgets.php' );
+require_once( get_stylesheet_directory() . '/inc/widgets.php' );
+
+
 
 
 // Custom Menu Locations
@@ -99,7 +108,7 @@ function register_widget_areas() {
   ));
 
   register_sidebar( array(
-  'name'          => 'Site info social icons',
+  'name'          => 'Site Info Social Icons',
   'id'            => 'site_info_social',
   'description'   => 'Bottom Social Icons',
   'before_widget' => '<section class="site-info site-info social">',
