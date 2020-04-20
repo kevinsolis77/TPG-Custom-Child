@@ -53,6 +53,8 @@ add_action( 'wp_enqueue_scripts', 'add_font_awesome');
 
 require_once( get_stylesheet_directory() . '/inc/side-menu/walker.php' );
 require_once( get_stylesheet_directory() . '/inc/widgets.php' );
+require_once( get_stylesheet_directory() . '/inc/cpt.php' );
+
 
 
 
