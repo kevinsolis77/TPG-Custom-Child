@@ -11836,10 +11836,19 @@ figure.woocommerce-product-gallery__wrapper {
 
 #footer-after {
   background-color: #C0C0C0;
-  padding-top: 15px; }
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding-top: 15px;
+  padding-bottom: 15px; }
   #footer-after p {
     color: #fff;
-    font-style: 800; }
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center; }
+  #footer-after a {
+    margin: 5px;
+    color: #136d7c; }
 
 #footer-locations {
   display: -webkit-box;

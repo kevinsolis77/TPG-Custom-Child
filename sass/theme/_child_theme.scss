@@ -322,10 +322,17 @@
 
 #footer-after { // Gray "Site Info" Section
 	background-color: #C0C0C0;
+	align-items: center;
 	padding-top: 15px;
+	padding-bottom: 15px;
 	p {
 		color: #fff;
-		font-style: 800;
+		align-items: center;
+	}
+
+	a {
+		margin: 5px;
+		color: #136d7c;
 	}
 }
 

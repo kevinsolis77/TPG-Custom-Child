@@ -43,23 +43,23 @@ class Social_Icons_Widget extends WP_Widget {
         }
 
 		if ( ! empty( $facebook ) ) {
-			echo '<a href="'.$instance['facebook'].'"<i class="fab fa-facebook"></i></a>';
+			echo '<a href="'.$instance['facebook'].'"<i class="fab fa-facebook fa-3x"></i></a>';
 		}
 
 		if ( ! empty( $twitter ) ) {
-			echo '<a href="'.$instance['twitter'].'"<i class="fab fa-twitter"></i></a>';
+			echo '<a href="'.$instance['twitter'].'"<i class="fab fa-twitter fa-3x"></i></a>';
 		}
 
 		if ( ! empty( $linkedin ) ) {
-			echo '<a href="'.$instance['linkedin'].'"<i class="fab fa-linkedin"></i></a>';
+			echo '<a href="'.$instance['linkedin'].'"<i class="fab fa-linkedin fa-3x"></i></a>';
 		}
 
 		if ( ! empty( $instagram ) ) {
-			echo '<a href="'.$instance['instagram'].'"<i class="fab fa-instagram"></i></a>';
+			echo '<a href="'.$instance['instagram'].'"<i class="fab fa-instagram fa-3x"></i></a>';
 		}
 
 		if ( ! empty( $youtube ) ) {
-			echo '<a href="'.$instance['youtube'].'"<i class="fab fa-youtube"></i></a>';
+			echo '<a href="'.$instance['youtube'].'"<i class="fab fa-youtube fa-3x"></i></a>';
 		}
 
 
