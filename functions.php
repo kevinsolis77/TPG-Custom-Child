@@ -42,6 +42,12 @@ function add_google_fonts() {
 add_action( 'wp_enqueue_scripts', 'add_google_fonts' );
 
 
+// Required Files
+
+require_once( get_stylesheet_directory() . '/inc/side-menu/walker.php' );
+// require_once( get_stylesheet_directory() . '/inc/widgets.php' );
+
+
 // Custom Menu Locations
 
 function register_my_menus() {
@@ -113,7 +119,6 @@ function cssmenumaker_scripts_styles() {
    wp_enqueue_script('cssmenu-scripts', get_stylesheet_directory_uri() . '/inc/side-menu/test-script.js');
 }
 
-require_once( get_stylesheet_directory() . '/inc/side-menu/walker.php' );
 
 add_action('wp_enqueue_scripts', 'cssmenumaker_scripts_styles' );
 

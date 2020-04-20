@@ -279,11 +279,56 @@
 
 // Footer
 
-#site-footer {
-	background-color: #C0C0C0;
+#footer-before { // Blue Green section
+	padding-top: 25px;
+	padding-bottom: 25px;
+	padding-left: 100px;
+	background-color: #136d7c;
 
+	.footer-area {
+		color: #fff;
+
+		h4 {
+			font-weight: 600;
+		}
+
+		ul {
+			list-style: none;
+			padding: 0;
+			list-style-type: none;
+
+			a {
+				color: #fff;
+			}
+		}
+	}
+}
+
+#footer-after { // Gray "Site Info" Section
+	background-color: #C0C0C0;
+	padding-top: 15px;
 	p {
 		color: #fff;
 		font-style: 800;
+	}
+}
+
+#footer-locations {
+	display: flex;
+	flex-wrap: wrap;
+	margin-right: 200px;
+	border: 1px solid #fff;
+
+	.footer-area-three {
+		padding: 10px;
+		width: 50%;
+
+		h4 {
+			font-weight: 600;
+		}
+
+		a {
+			color: #fff;
+		}
 	}
 }

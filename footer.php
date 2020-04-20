@@ -12,45 +12,42 @@ defined( 'ABSPATH' ) || exit;
 ?>
 
 
-<div class="wrapper" id="wrapper-footer">
 
-	<div class="container-fluid">
+	<div id="main-footer" class="container-fluid">
 
-		<div class="row">
+		<div id="footer-before" class="row">
 
-			<div class="col-md-3">
+			<div class="col-md-2">
 				<?php dynamic_sidebar( 'footer_area_one' ); ?>
 			</div><!--col end -->
-			<div class="col-md-3">
+			<div class="col-md-2">
 				<?php dynamic_sidebar( 'footer_area_two' ); ?>
 			</div><!--col end -->
-			<div class="col-md-6">
+
+			<div id="footer-locations" class="col">
 				<?php dynamic_sidebar( 'footer_area_three' ); ?>
 			</div><!--col end -->
 
 		</div><!-- row end -->
 
-		<div class="row" id="site-footer">
+		<div class="row" id="footer-after">
 
-			<div class="col-md-12">
-				<footer>
-
-					<div class="site-info">
-						<p>COPYRIGHT &copy; 2020 – <?php echo date('Y'); ?></p>
-						<p>CA License #:OH31766 </p><!-- widget text area for license info -->
+			<div class="col-sm">
+						<p class="text-center">COPYRIGHT &copy; 2020 – <?php echo date('Y'); ?> All Rights Reserved</p>
+			</div>
+			<div class="col-sm">
+						<p class="text-center">CA License #: OH31766 </p><!-- widget text area for license info -->
+			</div>
+			<div class="col-sm">
 						<div class="container"><!-- widget area for social icons -->
 							<?php dynamic_sidebar( 'site_info_social' ); ?>
 						</div>
-
-					</div><!-- .site-info -->
-
-				</footer><!-- #colophon -->
-			</div><!--col end -->
+			</div>
 		</div><!-- row end -->
 
 	</div><!-- container end -->
 
-</div><!-- wrapper end -->
+
 
 </div><!-- #page we need this extra closing tag here -->
 

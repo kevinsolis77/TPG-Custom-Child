@@ -11808,11 +11808,44 @@ figure.woocommerce-product-gallery__wrapper {
   display: inline-block;
   margin-right: 6px; }
 
-#site-footer {
-  background-color: #C0C0C0; }
-  #site-footer p {
+#footer-before {
+  padding-top: 25px;
+  padding-bottom: 25px;
+  padding-left: 100px;
+  background-color: #136d7c; }
+  #footer-before .footer-area {
+    color: #fff; }
+    #footer-before .footer-area h4 {
+      font-weight: 600; }
+    #footer-before .footer-area ul {
+      list-style: none;
+      padding: 0;
+      list-style-type: none; }
+      #footer-before .footer-area ul a {
+        color: #fff; }
+
+#footer-after {
+  background-color: #C0C0C0;
+  padding-top: 15px; }
+  #footer-after p {
     color: #fff;
     font-style: 800; }
+
+#footer-locations {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  margin-right: 200px;
+  border: 1px solid #fff; }
+  #footer-locations .footer-area-three {
+    padding: 10px;
+    width: 50%; }
+    #footer-locations .footer-area-three h4 {
+      font-weight: 600; }
+    #footer-locations .footer-area-three a {
+      color: #fff; }
 
 /*
 * Use existing Bootstrap 4 classes and
