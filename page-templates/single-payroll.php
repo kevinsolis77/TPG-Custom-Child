@@ -1,7 +1,7 @@
 <?php
 
 /*
-Template Name: Page Default
+Template Name: Payroll Main
 Template Post Type: payroll
 */
 ?>

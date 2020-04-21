@@ -79,7 +79,7 @@ function register_my_menus() {
 register_nav_menus(
 array(
  'personal-insurance-menu' => __( 'Personal Insurance Menu' ),
- 'commerical-insurance-menu' => __( 'Commerical Insurance Menu' ),
+ 'commercial-insurance-menu' => __( 'Commercial Insurance Menu' ),
  'risk-menu' => __( 'Risk Menu' ),
  'payroll-menu' => __( 'Payroll Menu' ),
  'human-resources-menu' => __( 'Human Resources Menu' )

@@ -1,7 +1,7 @@
 <?php
 
 /*
-Template Name: Page Default
+Template Name: Risk Main
 Template Post Type: risk
 */
 ?>

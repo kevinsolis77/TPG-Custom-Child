@@ -11927,6 +11927,118 @@ figure.woocommerce-product-gallery__wrapper {
           background-color: Transparent;
           border: 5px solid #00a65c; }
 
+/*
+* ====================================
+* Insurance Template Styling
+* ====================================
+*/
+#insurance-header {
+  margin: 0;
+  padding: 0;
+  background-position: bottom;
+  background-repeat: no-repeat;
+  background-size: cover;
+  border-bottom: 8px solid #0086ba;
+  min-height: 518px; }
+  #insurance-header .container-fluid {
+    /* Sizing */
+    height: 518px;
+    /* Flexbox stuff */
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    background-color: rgba(196, 196, 196, 0.9); }
+    #insurance-header .container-fluid .container {
+      -webkit-box-orient: vertical;
+      -webkit-box-direction: normal;
+          -ms-flex-direction: column;
+              flex-direction: column;
+      padding: 0;
+      margin-left: 60px; }
+      #insurance-header .container-fluid .container h1 {
+        font-size: 60px;
+        color: #0086ba;
+        font-weight: 800; }
+      #insurance-header .container-fluid .container p {
+        font-size: 25px;
+        color: white; }
+      #insurance-header .container-fluid .container .btn,
+      #insurance-header .container-fluid .container .wpcf7 input[type=submit], .wpcf7 #insurance-header .container-fluid .container input[type=submit] {
+        width: 520px;
+        height: 78px;
+        font-size: 40px;
+        font-weight: 600px;
+        border: 5px solid #0086ba;
+        border-radius: 0px;
+        font-weight: 800px;
+        color: #fff; }
+        #insurance-header .container-fluid .container .btn:focus,
+        #insurance-header .container-fluid .container .wpcf7 input:focus[type=submit], .wpcf7 #insurance-header .container-fluid .container input:focus[type=submit] {
+          color: #fff;
+          background-color: #0086ba; }
+        #insurance-header .container-fluid .container .btn:hover, #insurance-header .container-fluid .container .wpcf7 input:hover[type=submit], .wpcf7 #insurance-header .container-fluid .container input:hover[type=submit] {
+          color: #fff;
+          background-color: #0086ba; }
+
+#insurance-content-container {
+  margin-top: 35px; }
+
+.insurance-content-right img {
+  width: 100%;
+  height: auto; }
+
+#insurance-footer {
+  margin: 0;
+  padding: 0;
+  background-position: bottom;
+  background-repeat: no-repeat;
+  background-size: cover;
+  min-height: 518px; }
+  #insurance-footer .container-fluid {
+    /* Sizing */
+    height: 518px;
+    /* Flexbox stuff */
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    background-color: rgba(196, 196, 196, 0.9); }
+    #insurance-footer .container-fluid .container {
+      -webkit-box-orient: vertical;
+      -webkit-box-direction: normal;
+          -ms-flex-direction: column;
+              flex-direction: column;
+      text-align: center; }
+      #insurance-footer .container-fluid .container h1 {
+        font-size: 60px;
+        color: #0086ba;
+        font-weight: 800; }
+      #insurance-footer .container-fluid .container p {
+        font-size: 25px;
+        color: white; }
+      #insurance-footer .container-fluid .container .btn-lg, #insurance-footer .container-fluid .container .btn-group-lg > .btn,
+      #insurance-footer .container-fluid .container .wpcf7 .btn-group-lg > input[type=submit], .wpcf7 #insurance-footer .container-fluid .container .btn-group-lg > input[type=submit] {
+        width: 520px;
+        height: 78px;
+        font-size: 40px;
+        color: #fff;
+        border-radius: 0px;
+        border: 5px solid;
+        background-color: #0086ba;
+        border-color: #0086ba; }
+        #insurance-footer .container-fluid .container .btn-lg:focus, #insurance-footer .container-fluid .container .btn-group-lg > .btn:focus,
+        #insurance-footer .container-fluid .container .wpcf7 .btn-group-lg > input:focus[type=submit], .wpcf7 #insurance-footer .container-fluid .container .btn-group-lg > input:focus[type=submit] {
+          background-color: Transparent;
+          border: 5px solid #0086ba; }
+        #insurance-footer .container-fluid .container .btn-lg:hover, #insurance-footer .container-fluid .container .btn-group-lg > .btn:hover, #insurance-footer .container-fluid .container .wpcf7 .btn-group-lg > input:hover[type=submit], .wpcf7 #insurance-footer .container-fluid .container .btn-group-lg > input:hover[type=submit] {
+          background-color: Transparent;
+          border: 5px solid #0086ba; }
+
 #footer-before {
   padding-top: 25px;
   padding-bottom: 25px;

@@ -358,7 +358,7 @@
 	margin-top: 35px;
 }
 
-// Risk - Scale image for content in the content-right area
+// Payroll - Scale image for content in the content-right area
 .payroll-content-right img {
   width: 100%;
   height: auto;
@@ -421,6 +421,141 @@
 	}
 }
 
+/*
+* ====================================
+* Insurance Template Styling
+* ====================================
+*/
+
+//insurance Hero
+#insurance-header {
+	margin: 0;
+	padding: 0;
+	background-position: bottom;
+	background-repeat: no-repeat;
+	background-size: cover;
+	border-bottom: 8px solid $insurance-primary;
+	min-height: 518px;
+
+	.container-fluid {
+		/* Sizing */
+		height: 518px;
+		/* Flexbox stuff */
+		display: flex;
+		align-items: center;
+		background-color: rgba(196, 196, 196, 0.9);
+
+		.container {
+			flex-direction: column;
+			padding: 0;
+			margin-left: 60px;
+
+			h1 {
+				font-size: 60px;
+				color: $insurance-primary;
+				font-weight: 800;
+			}
+
+			p {
+				font-size: 25px;
+				color: white;
+			}
+
+			.btn {
+				width: 520px;
+				height: 78px;
+				font-size: 40px;
+				font-weight: 600px;
+				border: 5px solid $insurance-primary;
+				border-radius: 0px;
+				font-weight: 800px;
+				color: #fff;
+
+
+				&:focus {
+					color: #fff;
+					background-color: $insurance-primary;
+				}
+
+				&:hover {
+					color: #fff;
+					background-color: $insurance-primary;
+				}
+			}
+		}
+	}
+}
+
+
+
+
+//insurance content container
+#insurance-content-container {
+	margin-top: 35px;
+}
+
+// insurance - Scale image for content in the content-right area
+.insurance-content-right img {
+  width: 100%;
+  height: auto;
+}
+
+
+#insurance-footer {
+	margin: 0;
+	padding: 0;
+	background-position: bottom;
+	background-repeat: no-repeat;
+	background-size: cover;
+	min-height: 518px;
+
+	.container-fluid {
+		/* Sizing */
+		height: 518px;
+		/* Flexbox stuff */
+		display: flex;
+		align-items: center;
+		background-color: rgba(196, 196, 196, 0.9);
+
+		.container {
+			flex-direction: column;
+			text-align: center;
+
+			h1 {
+				font-size: 60px;
+				color: $insurance-primary;
+				font-weight: 800;
+			}
+
+			p {
+				font-size: 25px;
+				color: white;
+			}
+
+			.btn-lg {
+				width: 520px;
+				height: 78px;
+				font-size: 40px;
+				color: #fff;
+				border-radius: 0px;
+				border: 5px solid;
+				background-color: $insurance-primary;
+				border-color: $insurance-primary;
+
+
+				&:focus {
+					background-color: Transparent;
+					border: 5px solid $insurance-primary;
+				}
+
+				&:hover {
+					background-color: Transparent;
+					border: 5px solid $insurance-primary;
+				}
+			}
+		}
+	}
+}
 
 
 // Footer
