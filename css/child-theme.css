@@ -11706,6 +11706,11 @@ figure.woocommerce-product-gallery__wrapper {
   background-color: #0086ba;
   color: #fff; }
 
+/*
+* ====================================
+* Risk Template Styling
+* ====================================
+*/
 #risk-header {
   margin: 0;
   padding: 0;
@@ -11812,11 +11817,116 @@ figure.woocommerce-product-gallery__wrapper {
           background-color: Transparent;
           border: 5px solid #E14F42; }
 
-#side-tree .menu-item-has-children::before {
-  content: "\25B6";
-  color: black;
-  display: inline-block;
-  margin-right: 6px; }
+/*
+* ====================================
+* Payroll Template Styling
+* ====================================
+*/
+#payroll-header {
+  margin: 0;
+  padding: 0;
+  background-position: bottom;
+  background-repeat: no-repeat;
+  background-size: cover;
+  border-bottom: 8px solid #00a65c;
+  min-height: 518px; }
+  #payroll-header .container-fluid {
+    /* Sizing */
+    height: 518px;
+    /* Flexbox stuff */
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    background-color: rgba(196, 196, 196, 0.9); }
+    #payroll-header .container-fluid .container {
+      -webkit-box-orient: vertical;
+      -webkit-box-direction: normal;
+          -ms-flex-direction: column;
+              flex-direction: column;
+      padding: 0;
+      margin-left: 60px; }
+      #payroll-header .container-fluid .container h1 {
+        font-size: 60px;
+        color: #00a65c;
+        font-weight: 800; }
+      #payroll-header .container-fluid .container p {
+        font-size: 25px;
+        color: white; }
+      #payroll-header .container-fluid .container .btn,
+      #payroll-header .container-fluid .container .wpcf7 input[type=submit], .wpcf7 #payroll-header .container-fluid .container input[type=submit] {
+        width: 520px;
+        height: 78px;
+        font-size: 40px;
+        font-weight: 600px;
+        border: 5px solid #00a65c;
+        border-radius: 0px;
+        font-weight: 800px;
+        color: #fff; }
+        #payroll-header .container-fluid .container .btn:focus,
+        #payroll-header .container-fluid .container .wpcf7 input:focus[type=submit], .wpcf7 #payroll-header .container-fluid .container input:focus[type=submit] {
+          color: #fff;
+          background-color: #00a65c; }
+        #payroll-header .container-fluid .container .btn:hover, #payroll-header .container-fluid .container .wpcf7 input:hover[type=submit], .wpcf7 #payroll-header .container-fluid .container input:hover[type=submit] {
+          color: #fff;
+          background-color: #00a65c; }
+
+#payroll-content-container {
+  margin-top: 35px; }
+
+.risk-content-right img {
+  width: 100%;
+  height: auto; }
+
+#payroll-footer {
+  margin: 0;
+  padding: 0;
+  background-position: bottom;
+  background-repeat: no-repeat;
+  background-size: cover;
+  min-height: 518px; }
+  #payroll-footer .container-fluid {
+    /* Sizing */
+    height: 518px;
+    /* Flexbox stuff */
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    background-color: rgba(196, 196, 196, 0.9); }
+    #payroll-footer .container-fluid .container {
+      -webkit-box-orient: vertical;
+      -webkit-box-direction: normal;
+          -ms-flex-direction: column;
+              flex-direction: column;
+      text-align: center; }
+      #payroll-footer .container-fluid .container h1 {
+        font-size: 60px;
+        color: #00a65c;
+        font-weight: 800; }
+      #payroll-footer .container-fluid .container p {
+        font-size: 25px;
+        color: white; }
+      #payroll-footer .container-fluid .container .btn-danger {
+        width: 520px;
+        height: 78px;
+        font-size: 40px;
+        font-weight: 800px;
+        border-radius: 0px;
+        border: 5px solid;
+        font-weight: 800px;
+        background-color: #00a65c;
+        border-color: #00a65c; }
+        #payroll-footer .container-fluid .container .btn-danger:focus {
+          background-color: Transparent;
+          border: 5px solid #00a65c; }
+        #payroll-footer .container-fluid .container .btn-danger:hover {
+          background-color: Transparent;
+          border: 5px solid #00a65c; }
 
 #footer-before {
   padding-top: 25px;

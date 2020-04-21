@@ -148,7 +148,11 @@
 }
 
 
-// Risk Template Styling
+/*
+* ====================================
+* Risk Template Styling
+* ====================================
+*/
 
 //Risk Hero
 #risk-header {
@@ -175,7 +179,7 @@
 
 			h1 {
 				font-size: 60px;
-				color: #E14F42;
+				color: $risk-primary;
 				font-weight: 800;
 			}
 
@@ -246,7 +250,7 @@
 
 			h1 {
 				font-size: 60px;
-				color: #E14F42;
+				color: $risk-primary;
 				font-weight: 800;
 			}
 
@@ -281,16 +285,143 @@
 	}
 }
 
-// Risk Menu
+/*
+* ====================================
+* Payroll Template Styling
+* ====================================
+*/
 
-#side-tree {
-	.menu-item-has-children::before {
-		content: "\25B6";
-  		color: black;
-  		display: inline-block;
-  		margin-right: 6px;
+//Payroll Hero
+#payroll-header {
+	margin: 0;
+	padding: 0;
+	background-position: bottom;
+	background-repeat: no-repeat;
+	background-size: cover;
+	border-bottom: 8px solid $payroll-primary;
+	min-height: 518px;
+
+	.container-fluid {
+		/* Sizing */
+		height: 518px;
+		/* Flexbox stuff */
+		display: flex;
+		align-items: center;
+		background-color: rgba(196, 196, 196, 0.9);
+
+		.container {
+			flex-direction: column;
+			padding: 0;
+			margin-left: 60px;
+
+			h1 {
+				font-size: 60px;
+				color: $payroll-primary;
+				font-weight: 800;
+			}
+
+			p {
+				font-size: 25px;
+				color: white;
+			}
+
+			.btn {
+				width: 520px;
+				height: 78px;
+				font-size: 40px;
+				font-weight: 600px;
+				border: 5px solid $payroll-primary;
+				border-radius: 0px;
+				font-weight: 800px;
+				color: #fff;
+
+
+				&:focus {
+					color: #fff;
+					background-color: $payroll-primary;
+				}
+
+				&:hover {
+					color: #fff;
+					background-color: $payroll-primary;
+				}
+			}
+		}
 	}
 }
+
+
+
+
+//Payroll content container
+#payroll-content-container {
+	margin-top: 35px;
+}
+
+// Risk - Scale image for content in the content-right area
+.risk-content-right img {
+  width: 100%;
+  height: auto;
+}
+
+
+#payroll-footer {
+	margin: 0;
+	padding: 0;
+	background-position: bottom;
+	background-repeat: no-repeat;
+	background-size: cover;
+	min-height: 518px;
+
+	.container-fluid {
+		/* Sizing */
+		height: 518px;
+		/* Flexbox stuff */
+		display: flex;
+		align-items: center;
+		background-color: rgba(196, 196, 196, 0.9);
+
+		.container {
+			flex-direction: column;
+			text-align: center;
+
+			h1 {
+				font-size: 60px;
+				color: $payroll-primary;
+				font-weight: 800;
+			}
+
+			p {
+				font-size: 25px;
+				color: white;
+			}
+
+			.btn-danger {
+				width: 520px;
+				height: 78px;
+				font-size: 40px;
+				font-weight: 800px;
+				border-radius: 0px;
+				border: 5px solid;
+				font-weight: 800px;
+				background-color: $payroll-primary;
+				border-color: $payroll-primary;
+
+
+				&:focus {
+					background-color: Transparent;
+					border: 5px solid $payroll-primary;
+				}
+
+				&:hover {
+					background-color: Transparent;
+					border: 5px solid $payroll-primary;
+				}
+			}
+		}
+	}
+}
+
 
 
 // Footer
