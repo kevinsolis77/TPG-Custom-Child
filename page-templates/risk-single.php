@@ -80,7 +80,7 @@ Template Post Type: risk
 		<div class="container">
 			<h1><?php the_field('footer_title'); ?></h1>
 			<p><?php the_field('footer_text'); ?></p>
-			<button type="button" class="btn-danger btn-lg">Free Consultation</button>
+			<button type="button" class="btn btn-danger btn-lg">Free Consultation</button>
 		</div>
 	</div>
 </div>

@@ -359,7 +359,7 @@
 }
 
 // Risk - Scale image for content in the content-right area
-.risk-content-right img {
+.payroll-content-right img {
   width: 100%;
   height: auto;
 }
@@ -396,14 +396,13 @@
 				color: white;
 			}
 
-			.btn-danger {
+			.btn-success {
 				width: 520px;
 				height: 78px;
 				font-size: 40px;
-				font-weight: 800px;
+				color: #fff;
 				border-radius: 0px;
 				border: 5px solid;
-				font-weight: 800px;
 				background-color: $payroll-primary;
 				border-color: $payroll-primary;
 

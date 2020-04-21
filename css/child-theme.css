@@ -11876,7 +11876,7 @@ figure.woocommerce-product-gallery__wrapper {
 #payroll-content-container {
   margin-top: 35px; }
 
-.risk-content-right img {
+.payroll-content-right img {
   width: 100%;
   height: auto; }
 
@@ -11911,20 +11911,19 @@ figure.woocommerce-product-gallery__wrapper {
       #payroll-footer .container-fluid .container p {
         font-size: 25px;
         color: white; }
-      #payroll-footer .container-fluid .container .btn-danger {
+      #payroll-footer .container-fluid .container .btn-success {
         width: 520px;
         height: 78px;
         font-size: 40px;
-        font-weight: 800px;
+        color: #fff;
         border-radius: 0px;
         border: 5px solid;
-        font-weight: 800px;
         background-color: #00a65c;
         border-color: #00a65c; }
-        #payroll-footer .container-fluid .container .btn-danger:focus {
+        #payroll-footer .container-fluid .container .btn-success:focus {
           background-color: Transparent;
           border: 5px solid #00a65c; }
-        #payroll-footer .container-fluid .container .btn-danger:hover {
+        #payroll-footer .container-fluid .container .btn-success:hover {
           background-color: Transparent;
           border: 5px solid #00a65c; }
 

@@ -16,7 +16,7 @@ Template Post Type: payroll
 		<div class="container">
 			<h1><?php the_field('banner_title'); ?></h1>
 			<p><?php the_field('banner_text'); ?></p>
-			<button type="button" class="btn btn-outline-danger btn-lg">Request Demo</button>
+			<button type="button" class="btn btn-outline-success btn-lg">Request Demo</button>
 		</div>
 	</div>
 </div>
@@ -80,7 +80,7 @@ Template Post Type: payroll
 		<div class="container">
 			<h1><?php the_field('footer_title'); ?></h1>
 			<p><?php the_field('footer_text'); ?></p>
-			<button type="button" class="btn-danger btn-lg">Schedule Live Demo</button>
+			<button type="button" class="btn btn-success btn-lg">Schedule Live Demo</button>
 		</div>
 	</div>
 </div>
