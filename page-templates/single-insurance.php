@@ -22,7 +22,15 @@ Template Post Type: insurance
 </div>
 
 <!--- Personal Insurance Carosel --->
+<div class="container-fluid">
+	<?php
+	$slider = get_field('slider');
+	if ( !empty( $slider ) && has_category('personal')) {
+		echo do_shortcode($slider);
+	}
+	?>
 
+</div>
 
 
 
