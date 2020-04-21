@@ -49,6 +49,20 @@ function add_font_awesome(){
 
 add_action( 'wp_enqueue_scripts', 'add_font_awesome');
 
+add_filter( 'script_loader_tag', 'my_script_attributes', 10, 3 );
+
+function my_script_attributes( $tag, $handle, $src )
+{
+    // change to the registered script handle, e. g. 'jquery'
+    if ( 'font_awesome_icons' === $handle ) {
+
+        // add attributes of your choice
+        $tag = '<script type="text/javascript" SameSite="None" src="' . esc_url( $src ) . '"></script>';
+    }
+
+    return $tag;
+}
+
 // Required Files
 
 require_once( get_stylesheet_directory() . '/inc/side-menu/walker.php' );
@@ -127,17 +141,7 @@ add_action( 'widgets_init', 'register_widget_areas' );
 
 function cssmenumaker_scripts_styles() {
    wp_enqueue_style( 'cssmenu-styles', get_stylesheet_directory_uri() . '/inc/side-menu/styles.css');
-   wp_enqueue_script('cssmenu-scripts', get_stylesheet_directory_uri() . '/inc/side-menu/test-script.js');
 }
 
 
 add_action('wp_enqueue_scripts', 'cssmenumaker_scripts_styles' );
-
-
-
-function jquery_side_menu() {
-   wp_register_script('side-menu', get_stylesheet_directory_uri() . '/inc/side-menu/test-script.js', array('jquery'));
-   wp_enqueue_script(' side-menu ');
-}
-
-add_action('wp_enqueue_scripts', 'jquery_side_menu' );
