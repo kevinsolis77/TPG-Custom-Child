@@ -68,6 +68,7 @@ function my_script_attributes( $tag, $handle, $src )
 require_once( get_stylesheet_directory() . '/inc/side-menu/walker.php' );
 require_once( get_stylesheet_directory() . '/inc/widgets.php' );
 require_once( get_stylesheet_directory() . '/inc/cpt.php' );
+require_once( get_stylesheet_directory() . '/inc/acf-fields.php' );
 
 
 

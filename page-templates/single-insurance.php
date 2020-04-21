@@ -29,7 +29,6 @@ Template Post Type: insurance
 		echo do_shortcode($slider);
 	}
 	?>
-
 </div>
 
 
