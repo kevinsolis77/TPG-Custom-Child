@@ -16,7 +16,7 @@ Template Post Type: insurance
 		<div class="container">
 			<h1><?php the_field('banner_title'); ?></h1>
 			<p><?php the_field('banner_text'); ?></p>
-			<button type="button" class="btn btn-outline btn-lg">Request Demo</button>
+			<button type="button" class="btn btn-outline btn-lg">Get A Quote</button>
 		</div>
 	</div>
 </div>
@@ -100,7 +100,7 @@ Template Post Type: insurance
 		<div class="container">
 			<h1><?php the_field('footer_title'); ?></h1>
 			<p><?php the_field('footer_text'); ?></p>
-			<button type="button" class="btn btn-lg">Schedule Live Demo</button>
+			<button type="button" class="btn btn-lg">Get A Quote</button>
 		</div>
 	</div>
 </div>
