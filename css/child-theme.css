@@ -11987,7 +11987,8 @@ figure.woocommerce-product-gallery__wrapper {
           background-color: #0086ba; }
 
 #insurance-content-container {
-  margin-top: 35px; }
+  margin-top: 35px;
+  margin-bottom: 35px; }
 
 .insurance-content-right img {
   width: 100%;
@@ -12011,34 +12012,30 @@ figure.woocommerce-product-gallery__wrapper {
         -ms-flex-align: center;
             align-items: center;
     background-color: rgba(196, 196, 196, 0.9); }
-    #insurance-footer .container-fluid .container {
-      -webkit-box-orient: vertical;
-      -webkit-box-direction: normal;
-          -ms-flex-direction: column;
-              flex-direction: column;
+    #insurance-footer .container-fluid .row {
       text-align: center; }
-      #insurance-footer .container-fluid .container h1 {
+      #insurance-footer .container-fluid .row .col-md-12 {
+        margin-bottom: 30px; }
+      #insurance-footer .container-fluid .row h2 {
         font-size: 60px;
         color: #0086ba;
         font-weight: 800; }
-      #insurance-footer .container-fluid .container p {
+      #insurance-footer .container-fluid .row p {
         font-size: 25px;
-        color: white; }
-      #insurance-footer .container-fluid .container .btn-lg, #insurance-footer .container-fluid .container .btn-group-lg > .btn,
-      #insurance-footer .container-fluid .container .wpcf7 .btn-group-lg > input[type=submit], .wpcf7 #insurance-footer .container-fluid .container .btn-group-lg > input[type=submit] {
-        width: 520px;
-        height: 78px;
-        font-size: 40px;
+        color: black; }
+      #insurance-footer .container-fluid .row .btn-md {
+        width: 250px;
+        height: 75px;
+        font-size: 25px;
         color: #fff;
         border-radius: 0px;
         border: 5px solid;
         background-color: #0086ba;
         border-color: #0086ba; }
-        #insurance-footer .container-fluid .container .btn-lg:focus, #insurance-footer .container-fluid .container .btn-group-lg > .btn:focus,
-        #insurance-footer .container-fluid .container .wpcf7 .btn-group-lg > input:focus[type=submit], .wpcf7 #insurance-footer .container-fluid .container .btn-group-lg > input:focus[type=submit] {
+        #insurance-footer .container-fluid .row .btn-md:focus {
           background-color: Transparent;
           border: 5px solid #0086ba; }
-        #insurance-footer .container-fluid .container .btn-lg:hover, #insurance-footer .container-fluid .container .btn-group-lg > .btn:hover, #insurance-footer .container-fluid .container .wpcf7 .btn-group-lg > input:hover[type=submit], .wpcf7 #insurance-footer .container-fluid .container .btn-group-lg > input:hover[type=submit] {
+        #insurance-footer .container-fluid .row .btn-md:hover {
           background-color: Transparent;
           border: 5px solid #0086ba; }
 

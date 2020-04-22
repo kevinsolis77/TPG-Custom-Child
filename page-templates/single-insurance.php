@@ -37,7 +37,7 @@ Template Post Type: insurance
 <div id="insurance-content-container"class="container">
 	<section class="page-wrap">
 		<div class="row">
-			<div class="col-3">
+			<div class="col-md-3">
 				<div class="wrapper">
 				    <!-- Insurance Menu -->
 					<?php
@@ -62,7 +62,7 @@ Template Post Type: insurance
 				   } ?>
 				</div>
 			</div>
-			<div class="col-9 insurance-content-right">
+			<div class="col-md-9 insurance-content-right">
 				<?php
 					// Start the loop.
 					while ( have_posts() ) : the_post();
@@ -88,10 +88,20 @@ Template Post Type: insurance
 <?php $image = get_field('footer_image'); ?>
 <div id="insurance-footer" class="container-fluid" style="background-image:url('<?php echo $image['url']; ?>')">
 	<div class="container-fluid">
-		<div class="container">
-			<h1><?php the_field('footer_title'); ?></h1>
-			<p><?php the_field('footer_text'); ?></p>
-			<button type="button" class="btn btn-lg">Get A Quote</button>
+		<div class="row w-100">
+			<div class="col-md-12">
+				<h2>Ready To Get Started?</h2>
+				<button type="button" class="btn btn-md">Get A Quote</button>
+			</div>
+			<div class="col-md-6">
+				<p>Visit Our Contact Us Page...</p>
+				<button type="button" class="btn btn-md">Contact Us</button>
+			</div>
+			<div class="col-md-6">
+				<p>Or Talk To A Specialist</p>
+				<button type="button" class="btn btn-md">Call Now</button>
+			</div>
+		</div>
 		</div>
 	</div>
 </div>

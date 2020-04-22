@@ -494,6 +494,7 @@
 //insurance content container
 #insurance-content-container {
 	margin-top: 35px;
+	margin-bottom: 35px;
 }
 
 // insurance - Scale image for content in the content-right area
@@ -519,11 +520,14 @@
 		align-items: center;
 		background-color: rgba(196, 196, 196, 0.9);
 
-		.container {
-			flex-direction: column;
+		.row {
 			text-align: center;
 
-			h1 {
+			.col-md-12 {
+				margin-bottom: 30px;
+			}
+
+			h2 {
 				font-size: 60px;
 				color: $insurance-primary;
 				font-weight: 800;
@@ -531,13 +535,13 @@
 
 			p {
 				font-size: 25px;
-				color: white;
+				color: black;
 			}
 
-			.btn-lg {
-				width: 520px;
-				height: 78px;
-				font-size: 40px;
+			.btn-md {
+				width: 250px;
+				height: 75px;
+				font-size: 25px;
 				color: #fff;
 				border-radius: 0px;
 				border: 5px solid;
