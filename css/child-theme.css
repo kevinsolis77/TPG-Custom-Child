@@ -11718,10 +11718,10 @@ figure.woocommerce-product-gallery__wrapper {
   background-repeat: no-repeat;
   background-size: cover;
   border-bottom: 8px solid #e14f42;
-  min-height: 518px; }
+  height: 518px; }
   #risk-header .container-fluid {
     /* Sizing */
-    height: 518px;
+    height: 510px;
     /* Flexbox stuff */
     display: -webkit-box;
     display: -ms-flexbox;
@@ -11740,7 +11740,8 @@ figure.woocommerce-product-gallery__wrapper {
       #risk-header .container-fluid .container h1 {
         font-size: 60px;
         color: #E14F42;
-        font-weight: 800; }
+        font-weight: 800;
+        text-transform: uppercase; }
       #risk-header .container-fluid .container p {
         font-size: 25px;
         color: white; }
@@ -11775,7 +11776,7 @@ figure.woocommerce-product-gallery__wrapper {
   background-position: bottom;
   background-repeat: no-repeat;
   background-size: cover;
-  min-height: 518px; }
+  height: 518px; }
   #risk-footer .container-fluid {
     /* Sizing */
     height: 518px;
@@ -11829,10 +11830,10 @@ figure.woocommerce-product-gallery__wrapper {
   background-repeat: no-repeat;
   background-size: cover;
   border-bottom: 8px solid #00a65c;
-  min-height: 518px; }
+  height: 518px; }
   #payroll-header .container-fluid {
     /* Sizing */
-    height: 518px;
+    height: 510px;
     /* Flexbox stuff */
     display: -webkit-box;
     display: -ms-flexbox;
@@ -11851,7 +11852,8 @@ figure.woocommerce-product-gallery__wrapper {
       #payroll-header .container-fluid .container h1 {
         font-size: 60px;
         color: #00a65c;
-        font-weight: 800; }
+        font-weight: 800;
+        text-transform: uppercase; }
       #payroll-header .container-fluid .container p {
         font-size: 25px;
         color: white; }
@@ -11886,7 +11888,7 @@ figure.woocommerce-product-gallery__wrapper {
   background-position: bottom;
   background-repeat: no-repeat;
   background-size: cover;
-  min-height: 518px; }
+  height: 518px; }
   #payroll-footer .container-fluid {
     /* Sizing */
     height: 518px;
@@ -11939,10 +11941,10 @@ figure.woocommerce-product-gallery__wrapper {
   background-repeat: no-repeat;
   background-size: cover;
   border-bottom: 8px solid #0086ba;
-  min-height: 518px; }
+  height: 518px; }
   #insurance-header .container-fluid {
     /* Sizing */
-    height: 518px;
+    height: 510px;
     /* Flexbox stuff */
     display: -webkit-box;
     display: -ms-flexbox;
@@ -11961,7 +11963,8 @@ figure.woocommerce-product-gallery__wrapper {
       #insurance-header .container-fluid .container h1 {
         font-size: 60px;
         color: #0086ba;
-        font-weight: 800; }
+        font-weight: 800;
+        text-transform: uppercase; }
       #insurance-header .container-fluid .container p {
         font-size: 25px;
         color: white; }
@@ -11996,7 +11999,7 @@ figure.woocommerce-product-gallery__wrapper {
   background-position: bottom;
   background-repeat: no-repeat;
   background-size: cover;
-  min-height: 518px; }
+  height: 518px; }
   #insurance-footer .container-fluid {
     /* Sizing */
     height: 518px;

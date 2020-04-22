@@ -162,11 +162,11 @@
 	background-repeat: no-repeat;
 	background-size: cover;
 	border-bottom: 8px solid #e14f42;
-	min-height: 518px;
+	height: 518px;
 
 	.container-fluid {
 		/* Sizing */
-		height: 518px;
+		height: 510px;
 		/* Flexbox stuff */
 		display: flex;
 		align-items: center;
@@ -181,6 +181,7 @@
 				font-size: 60px;
 				color: $risk-primary;
 				font-weight: 800;
+				text-transform: uppercase;
 			}
 
 			p {
@@ -234,7 +235,7 @@
 	background-position: bottom;
 	background-repeat: no-repeat;
 	background-size: cover;
-	min-height: 518px;
+	height: 518px;
 
 	.container-fluid {
 		/* Sizing */
@@ -299,11 +300,11 @@
 	background-repeat: no-repeat;
 	background-size: cover;
 	border-bottom: 8px solid $payroll-primary;
-	min-height: 518px;
+	height: 518px;
 
 	.container-fluid {
 		/* Sizing */
-		height: 518px;
+		height: 510px;
 		/* Flexbox stuff */
 		display: flex;
 		align-items: center;
@@ -318,6 +319,7 @@
 				font-size: 60px;
 				color: $payroll-primary;
 				font-weight: 800;
+				text-transform: uppercase;
 			}
 
 			p {
@@ -371,7 +373,7 @@
 	background-position: bottom;
 	background-repeat: no-repeat;
 	background-size: cover;
-	min-height: 518px;
+	height: 518px;
 
 	.container-fluid {
 		/* Sizing */
@@ -435,11 +437,11 @@
 	background-repeat: no-repeat;
 	background-size: cover;
 	border-bottom: 8px solid $insurance-primary;
-	min-height: 518px;
+	height: 518px;
 
 	.container-fluid {
 		/* Sizing */
-		height: 518px;
+		height: 510px;
 		/* Flexbox stuff */
 		display: flex;
 		align-items: center;
@@ -454,6 +456,7 @@
 				font-size: 60px;
 				color: $insurance-primary;
 				font-weight: 800;
+				text-transform: uppercase;
 			}
 
 			p {
@@ -506,7 +509,7 @@
 	background-position: bottom;
 	background-repeat: no-repeat;
 	background-size: cover;
-	min-height: 518px;
+	height: 518px;
 
 	.container-fluid {
 		/* Sizing */
