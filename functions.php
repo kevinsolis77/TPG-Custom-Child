@@ -134,6 +134,56 @@ function register_widget_areas() {
   'after_title'   => '</h4>',
   ));
 
+//Sidebar Menu For CPT
+register_sidebar( array(
+      'name'          => 'Insurance Personal',
+      'id'            => 'sidebar-insurance-personal',
+      'description'   => 'Add widgets here to appear in your sidebar.',
+      'before_widget' => '<aside class="sidebar-insurance-personal expandable-side">',
+      'after_widget'  => '</aside>',
+      'before_title'  => '<h4 class="widget-title">',
+      'after_title'   => '</h4>',
+    ) );
+
+    register_sidebar( array(
+      'name'          => 'Insurance Commercial',
+      'id'            => 'sidebar-insurance-commercial',
+      'description'   => 'Add widgets here to appear in your sidebar.',
+      'before_widget' => '<aside class="sidebar-insurance-commercial expandable-side">',
+      'after_widget'  => '</aside>',
+      'before_title'  => '<h4 class="widget-title">',
+      'after_title'   => '</h4>',
+    ) );
+
+    register_sidebar( array(
+      'name'          => 'Paryoll Sidebar',
+      'id'            => 'sidebar-payroll',
+      'description'   => 'Add widgets here to appear in your sidebar.',
+      'before_widget' => '<aside class="sidebar-payroll expandable-sides">',
+      'after_widget'  => '</aside>',
+      'before_title'  => '<h4 class="widget-title">',
+      'after_title'   => '</h4>',
+    ) );
+
+    register_sidebar( array(
+      'name'          => 'Risk Management Sidebar',
+      'id'            => 'sidebar-risk-management',
+      'description'   => 'Add widgets here to appear in your sidebar.',
+      'before_widget' => '<aside class="sidebar-risk expandable-side">',
+      'after_widget'  => '</aside>',
+      'before_title'  => '<h4 class="widget-title">',
+      'after_title'   => '</h4>',
+    ) );
+
+    register_sidebar( array(
+      'name'          => 'Human Resource Sidebar',
+      'id'            => 'sidebar-human-resource',
+      'description'   => 'Add widgets here to appear in your sidebar.',
+      'before_widget' => '<aside class="sidebar-insurance-personal expandable-side">',
+      'after_widget'  => '</aside>',
+      'before_title'  => '<h4 class="widget-title">',
+      'after_title'   => '</h4>',
+    ) );
 }
 
 add_action( 'widgets_init', 'register_widget_areas' );
