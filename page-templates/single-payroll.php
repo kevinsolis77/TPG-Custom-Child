@@ -32,13 +32,10 @@ Template Post Type: payroll
 					<div class="wrapper">
 					    <!-- Payroll Menu -->
 							<div class="">
-						<?php wp_nav_menu( array(
-							'theme_location' 	=> 'payroll-menu',
-							'depth'           	=> 2,
-							'container'     	=> 'div',
-							'container_class' 	=> 'tree',
-							 //'walker'			=> new Nfr_Menu_Walker,
-						) ); ?>
+						<div class="col-md-4">
+							<!-- Prinf Sidebar Menu Payroll -->
+			<?php dynamic_sidebar( 'sidebar-payroll' ); ?>
+			</div>
 							</div>
 					</div>
 				</div>
