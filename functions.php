@@ -114,6 +114,7 @@ function register_widget_areas() {
 	'after_title'   => '</h4>',
   ));
 
+	
   register_sidebar( array(
 	'name'          => 'Footer Area Three',
 	'id'            => 'footer_area_three',
